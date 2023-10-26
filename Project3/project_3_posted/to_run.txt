@@ -1,0 +1,5 @@
+start the server
+./web_server 8081 testing 1 1 10 10
+"download" the file (do an ll after to check if 0.txt is in the directory you ran wget)
+wget 127.0.0.1:8082/text/plain/0.txt
+tar -czvf project_3_intermediate_group_10.tar.gz

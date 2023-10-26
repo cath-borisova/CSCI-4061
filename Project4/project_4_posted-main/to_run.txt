@@ -1,0 +1,13 @@
+start the server
+./web_server 8081 testing 1 1 10 10
+"download" the file (do an ll after to check if 0.txt is in the directory you ran wget)
+wget 127.0.0.1:8082/text/plain/0.txt
+tar -czvf project_3_intermediate_group_10.tar.gz
+wget 127.0.0.1:8081/text/plain/0.txt
+wget 127.0.0.1:8081/text/html/0.html
+wget 127.0.0.1:8081/text/big.txt
+wget 127.0.0.1:8081/image/gif/0.gif
+wget 127.0.0.1:8081/image/jpg/0.jpg
+
+wget –-content-on-error http://127.0.0.1:8081/image/gif/not_a_file
+ cat not_a_file
